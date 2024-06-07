@@ -1,0 +1,35 @@
+.About-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#070F2B ;
+   
+   
+}
+.About-section h1{
+    font-size: 3rem;
+    color: #535C91;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.About-section P{
+    padding: 30px;
+    font-size: 1.2rem;
+    color: white;
+    line-height: 1.8;
+}
+@media screen and (max-width:746px) {
+    .About-section{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        }
+    .About-section h1{
+        font-size: 2rem;
+    }
+    .About-section p{
+        font-size: 1rem;
+    }
+    
+}

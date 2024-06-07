@@ -1,0 +1,14 @@
+.abouta{
+    background-image: url(../../images/heroj.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    display: grid;
+    place-content: center;
+
+}
+.abouta h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
