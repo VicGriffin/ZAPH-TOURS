@@ -3,3 +3,15 @@
   padding: 0%;
   box-sizing: border-box;
 }
+
+button{
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #1B1A55, white);
+  transform: all 0.3s ease;
+  box-shadow: 5px 5px 5px black;
+  text-transform: capitalize;
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+}

@@ -6,6 +6,9 @@
     color: #535C91;
     align-items: center;
     font-size: 2rem;
+    box-shadow: 10px 10px 10px #1c2242;
+    border-bottom: 4px solid black;
+   
     
 }
 .header-maintitle{

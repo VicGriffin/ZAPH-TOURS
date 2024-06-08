@@ -4,6 +4,7 @@ import About from '../../components/About/About'
 import Abouta from '../../components/Abouta/Abouta'
 import BigFive from '../../components/bigfive/BigFive'
 import Destination from '../../components/Destination/Destination'
+import Testimonials from '../../components/Testimonials/Testimonials'
 import "./home.css"
 
 function Home() {
@@ -14,7 +15,7 @@ function Home() {
     <Abouta/>
     <BigFive/>
     <Destination/>
-    
+    <Testimonials/>    
     </>
   )
 }

@@ -1,0 +1,36 @@
+.testimonials{
+    background-color: #070F2B;
+}
+
+.testimonial-cards{
+    border: 1px solid rebeccapurple;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 250px;
+    display: inline-block;
+}
+.testimonial-cards .card-img{
+    max-width: 60%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.testimonials h1:nth-child(1){
+    background: url(../../images/heroj.jpg);
+    height: 10vh;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: white;
+}
+.testimonials h1{
+    color: white;
+    padding: 20px;
+}
+.testimonials p{
+    color: white;
+    line-height: 1.8;
+}

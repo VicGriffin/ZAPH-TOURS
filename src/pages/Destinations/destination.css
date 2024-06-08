@@ -1,0 +1,80 @@
+.destination{
+    background: linear-gradient(rgba(0, 0, 102, 0.4), rgba(0, 0, 102, 0.4)),
+    url('../../images/heroy.jpg');
+    background-size: cover;
+    background-color: #070F2B;
+    color: white;
+}
+.destination h1{
+    font-size: 3rem;
+    display: grid;
+    place-content: center;  
+    text-transform: uppercase;
+    text-decoration: underline;  
+}
+.wrapper{
+    padding: 10px 10%;
+}
+.card-area{
+    padding:50px 0;
+}
+.box-area{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    margin-top: 50px;
+}
+.box{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px black;
+}
+.box img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+.overlay{
+    height: 0;
+    width: 100%;
+    background:linear-gradient(transparent, #1c1c1c 58%);
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+.overlay h3{
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 80%;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.overlay a{
+    margin-top: 10px;
+    color: #070F2B;
+    text-decoration: none;
+    font-size: 14px;
+    background: white;
+    border-radius: 50px;
+    text-align: center;
+    padding: 5px 15px;
+
+}
+.boxLhover img{
+    transform: scale(1.2);
+}
+.box:hover .overlay{
+    height: 100%;
+}

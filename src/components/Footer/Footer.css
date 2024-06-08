@@ -1,4 +1,62 @@
-.footer{
-    height: 50vh;
-    background-color: #333;
+.footer {
+    height:fit-content;
+    background:url(../../images/heroj.jpg);
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;  
+}
+
+footer {
+    display: flex;
+    width: 100%;
+}
+
+.left-side {   
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    flex: 1;  
+    color: #fff; 
+    align-items: center;
+    border-right: 2px solid white;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+    flex: 3;  
+    position: relative;
+    color: #fff;  
+    align-items: center;
+}
+footer img{
+    width: 250px;
+}
+.right-side .contact-us{
+    display: flex;
+    flex-direction: column;
+}
+.subscribe-card{
+    border: 1px solid rebeccapurple;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 250px;
+    display: inline-block;
+}
+.subscribe h3{
+    text-decoration: underline;
+}
+@media screen and (max-width: 553px){
+    .footer{
+        display: flex;
+        flex-direction: row;
+        }
+   
+
 }

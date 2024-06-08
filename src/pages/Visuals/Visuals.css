@@ -1,0 +1,35 @@
+.visuals{
+    background-color: #070F2B;
+}
+.visual-grid-col-span-2-article{
+    background: url(../../images/alex.jpeg);
+    background-size: cover;
+}
+.visual-article{
+    background: url(../../images/chilling.jpeg);
+    background-size: cover;
+}
+
+.visual-grid {
+    display: grid;
+    gap: 1.5rem;
+    padding-block: 2rem;
+    width: min(95%);
+    height: 80vh;
+    margin-inline: auto;
+}
+
+@media screen and (min-width: 553px) {
+    .visual-grid-col-span-2-article {
+        grid-column: span 2;
+        border-radius: 10px;
+    }
+    .visual-grid {
+       grid-template-columns: repeat(4, 1fr);
+    }
+    .visual-grid > *:nth-child(5) {
+        grid-column-start: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+}
