@@ -1,8 +1,15 @@
-.testimonials{
+.testimonials {
     background-color: #070F2B;
+    padding: 20px;
+    text-align: center;
 }
 
-.testimonial-cards{
+.testimonials h1 {
+    color: white;
+    padding: 20px;
+}
+
+.testimonial-card {
     border: 1px solid rebeccapurple;
     border-radius: 10px;
     box-shadow: 5px 5px 5px black;
@@ -11,26 +18,26 @@
     text-align: center;
     max-width: 250px;
     display: inline-block;
+    background-color: #1c1c1c;
 }
-.testimonial-cards .card-img{
+
+.testimonial-card .card-img {
     max-width: 60%;
     height: auto;
     border-radius: 50%;
     margin-bottom: 10px;
 }
-.testimonials h1:nth-child(1){
-    background: url(../../images/heroj.jpg);
-    height: 10vh;
-    text-align: center;
-    font-size: 2rem;
-    text-transform: capitalize;
-    color: white;
-}
-.testimonials h1{
-    color: white;
-    padding: 20px;
-}
-.testimonials p{
+
+.testimonials p {
     color: white;
     line-height: 1.8;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: white;
+    width: 44px;
+    height: 44px;
+    margin-top: -22px;
+    z-index: 10;
 }
