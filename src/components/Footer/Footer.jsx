@@ -14,16 +14,7 @@ function Footer() {
             <p>Lorem ipsum dolor sit amet.</p>
           </div>
           <div className='right-side'>
-          <div className='contact-us'>
-            <h1>CONTACT US</h1>
-            <button><Link to="/Contact">contact us</Link></button>
-            <br />
-            <br />
-            <h2>GET INSPIRED</h2>
-            
-            <button><Link to="/Visuals">Visuals</Link></button>
-            
-            </div>
+          
 
           <div className='subscribe-card'>
             <h3>Subscribe To Our Newsletter</h3>

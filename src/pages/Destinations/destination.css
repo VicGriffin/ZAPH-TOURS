@@ -1,6 +1,6 @@
 .destination{
     background-color: #070F2B;
-    color: white;
+    color: #535C91;
 }
 .destination h1{
     font-size: 3rem;
@@ -8,6 +8,7 @@
     place-content: center;  
     text-transform: uppercase;
     text-decoration: overline;  
+    padding: 30PX;
 }
 .destination h3{
     font-size: 1.5rem;
@@ -15,11 +16,12 @@
     place-content: center;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    padding: 1px;
     text-transform: capitalize;
-    
+    color: #b0b1b6;    
 }
 .destination p{
+    color: #b0b1b6;
     font-size: 1.1rem;
     line-height: 1.8;
     display: grid;

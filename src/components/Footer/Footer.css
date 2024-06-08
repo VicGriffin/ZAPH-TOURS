@@ -10,7 +10,7 @@
 
 footer {
     display: flex;
-    width: 100%;
+    width: 90%;
 }
 
 .left-side {   
@@ -27,7 +27,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;  
-    flex: 3;  
+    flex: 2;  
     position: relative;
     color: #fff;  
     align-items: center;
@@ -49,14 +49,26 @@ footer img{
     max-width: 250px;
     display: inline-block;
 }
-.subscribe h3{
-    text-decoration: underline;
+.subscribe-card input{
+    background-color: #1B1A55;
+    padding: 10px;
+    border-radius: 10px;
+    color: #9290C3;
+    font-size: 10px;
+}
+.subscribe-card form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 20px;
 }
 @media screen and (max-width: 553px){
     .footer{
         display: flex;
-        flex-direction: row;
-        }
+        flex-direction: column;
+
+    }
+    
    
 
 }

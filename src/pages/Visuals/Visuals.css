@@ -2,9 +2,13 @@
     background-color: #070F2B;
 }
 .visuals h1{
-    color: #fff;
+    padding: 30px;
+    color: #535C91;
+    font-size: 40px;
     display: grid;
     place-content: center;
+    text-transform: uppercase;
+    text-decoration: overline
 }
 .visual-grid-col-span-2-article{
     background: url(../../images/visuals.jpeg);
