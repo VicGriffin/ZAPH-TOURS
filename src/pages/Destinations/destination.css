@@ -1,7 +1,4 @@
 .destination{
-    background: linear-gradient(rgba(0, 0, 102, 0.4), rgba(0, 0, 102, 0.4)),
-    url('../../images/heroy.jpg');
-    background-size: cover;
     background-color: #070F2B;
     color: white;
 }
@@ -10,7 +7,26 @@
     display: grid;
     place-content: center;  
     text-transform: uppercase;
-    text-decoration: underline;  
+    text-decoration: overline;  
+}
+.destination h3{
+    font-size: 1.5rem;
+    display: grid;
+    place-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    text-transform: capitalize;
+    
+}
+.destination p{
+    font-size: 1.1rem;
+    line-height: 1.8;
+    display: grid;
+    place-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
 }
 .wrapper{
     padding: 10px 10%;
@@ -20,7 +36,7 @@
 }
 .box-area{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 40px;
     margin-top: 50px;
 }

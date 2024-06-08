@@ -26,7 +26,7 @@ function Footer() {
             </div>
 
           <div className='subscribe-card'>
-            <h3>Subscribe To Our Newspaper</h3>
+            <h3>Subscribe To Our Newsletter</h3>
             <br />
             
             <form action="" method="post">

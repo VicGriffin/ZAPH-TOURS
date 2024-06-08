@@ -1,12 +1,17 @@
 .visuals{
     background-color: #070F2B;
 }
+.visuals h1{
+    color: #fff;
+    display: grid;
+    place-content: center;
+}
 .visual-grid-col-span-2-article{
-    background: url(../../images/alex.jpeg);
+    background: url(../../images/visuals.jpeg);
     background-size: cover;
 }
 .visual-article{
-    background: url(../../images/chilling.jpeg);
+    background: url(../../images/visuals1.jpeg);
     background-size: cover;
 }
 
@@ -17,6 +22,7 @@
     width: min(95%);
     height: 80vh;
     margin-inline: auto;
+    
 }
 
 @media screen and (min-width: 553px) {
@@ -26,10 +32,21 @@
     }
     .visual-grid {
        grid-template-columns: repeat(4, 1fr);
+       border-radius: 10px;
     }
     .visual-grid > *:nth-child(5) {
         grid-column-start: 4;
         grid-row-start: 1;
         grid-row-end: 3;
+        border-radius: 10px;
+    }
+    .visual-grid > *:nth-child(1) {
+        border-radius: 10px;
+    }.visual-grid > *:nth-child(2) {
+        border-radius: 10px;
+    }.visual-grid > *:nth-child(3) {
+        border-radius: 10px;
+    }.visual-grid > *:nth-child(4) {
+        border-radius: 10px;
     }
 }
