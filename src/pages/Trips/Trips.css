@@ -6,9 +6,6 @@
 .trips-body .plan{
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
-
-
 }
 .trips-body h1{
     font-size: 3rem;

@@ -13,7 +13,7 @@ function Trips() {
     <section className="trips-body">
         <h1>Trips</h1>
         <h3></h3>
-        <p>place cusor on the brown section to see more details</p>
+        <p>Tap the brown section to see more details</p>
         <section className='plan'>
         <div className="container">
         <div className="card-board">
