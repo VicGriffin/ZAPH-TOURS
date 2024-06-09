@@ -3,6 +3,33 @@
     background-color:#070F2B;
     color: white;
 }
+.trips-body .plan{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+
+}
+.trips-body h1{
+    font-size: 3rem;
+    display: grid;
+    place-content: center;  
+    text-transform: uppercase;
+    text-decoration: overline;  
+    padding: 30PX;
+    color: #535C91;
+}
+
+.trips-body p{
+    color: #b0b1b6;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    display: grid;
+    place-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
  .ul{
     list-style: none;
 }
