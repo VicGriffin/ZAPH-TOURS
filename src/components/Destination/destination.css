@@ -48,7 +48,7 @@
     transition: transform 0.5s;
 }
 
-.card-body .info {
+.card-body .inf1o {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -64,7 +64,7 @@
     opacity: 0;
 }
 
-.card-section:hover .info {
+.card-section:hover .inf1o {
     height: 100%;
     opacity: 0.5;
 }

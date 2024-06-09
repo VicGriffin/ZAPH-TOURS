@@ -19,7 +19,7 @@ function Destination() {
         <div className="card-section">
             <div className="card-body">
             <img src={tsavo_img} alt="" />
-            <div className="info">
+            <div className="inf1o">
                 <h3>TSAVO-NATIONAL PARK</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam enim delectus eligendi sit doloribus. Magni consequatur harum voluptate perferendis tempora necessitatibus aliquid. Eos natus corporis laudantium autem voluptates id eius?</p>
             </div>
@@ -28,7 +28,7 @@ function Destination() {
         <div className="card-section">
             <div className="card-body">
             <img src={lake_img} alt="" />
-            <div className="info">
+            <div className="inf1o">
                 <h3>LAKE NAKURU</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam enim delectus eligendi sit doloribus. Magni consequatur harum voluptate perferendis tempora necessitatibus aliquid. Eos natus corporis laudantium autem voluptates id eius?</p>
             </div>
@@ -37,7 +37,7 @@ function Destination() {
         <div className="card-section">
             <div className="card-body">
             <img src={coastal_img} alt="" />
-            <div className="info">
+            <div className="inf1o">
                 <h3>COAST</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam enim delectus eligendi sit doloribus. Magni consequatur harum voluptate perferendis tempora necessitatibus aliquid. Eos natus corporis laudantium autem voluptates id eius?</p>
             </div>
@@ -46,7 +46,7 @@ function Destination() {
         <div className="card-section">
             <div className="card-body">
             <img src={nairobi_img} alt="" />
-            <div className="info">
+            <div className="inf1o">
                 <h3>NAIROBI NATIONAL PARK</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam enim delectus eligendi sit doloribus. Magni consequatur harum voluptate perferendis tempora necessitatibus aliquid. Eos natus corporis laudantium autem voluptates id eius?</p>
             </div>
@@ -55,7 +55,7 @@ function Destination() {
         <div className="card-section">
             <div className="card-body">
             <img src={mtkenya_img} alt="" />
-            <div className="info">
+            <div className="inf1o">
                 <h3>MOUNT KENYA</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam enim delectus eligendi sit doloribus. Magni consequatur harum voluptate perferendis tempora necessitatibus aliquid. Eos natus corporis laudantium autem voluptates id eius?</p>
             </div>
