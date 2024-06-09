@@ -5,8 +5,10 @@
 }
 
 button{
-  padding: 5px;
-  width: 25%px;
+  padding: 7px;
+  width: 50%;
+  display: grid;
+  place-items: center;
   border-radius: 10px;
   background: linear-gradient(to right, #1B1A55, white);
   transform: all 0.3s ease;
