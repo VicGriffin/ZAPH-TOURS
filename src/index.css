@@ -15,3 +15,15 @@ button{
   font-size: 1rem;
   font-weight: 700;
 }
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+}

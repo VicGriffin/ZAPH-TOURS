@@ -34,7 +34,7 @@
 .navigation-bar a:hover{
     background-color: #535C91;
     color: #070F2B;
-    border-radius: 15%;
+    border-radius: 15px;
 }
 
 @media screen and (max-width: 605px) {

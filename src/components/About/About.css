@@ -19,6 +19,10 @@
     color: white;
     line-height: 1.8;
 }
+video {
+    max-width:auto;
+    height: 30vh;
+  }
 @media screen and (max-width:746px) {
     .About-section{
         display: flex;

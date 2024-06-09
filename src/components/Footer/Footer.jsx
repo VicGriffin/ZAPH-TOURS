@@ -14,7 +14,6 @@ function Footer() {
             <p>Lorem ipsum dolor sit amet.</p>
           </div>
           <div className='right-side'>
-          
 
           <div className='subscribe-card'>
             <h3>Subscribe To Our Newsletter</h3>
