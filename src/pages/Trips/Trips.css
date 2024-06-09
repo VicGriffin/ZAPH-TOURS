@@ -1,0 +1,65 @@
+.trips-body{
+    font: size 20px; ;
+    background-color:#070F2B;
+    color: white;
+}
+/* .ul{
+    list-style: none;
+}
+.a{
+    text-decoration: none;
+}
+.img{
+    max-width: 100%;
+    height: auto;
+} */
+.container{
+    height: 100vh;
+    margin-inline: 1.5rem;
+    display: grid;
+    place-items: center;
+}
+.card-board{
+    position: relative;
+    width: 290px;
+    background: #535C91;
+    border-radius: 1rem 1rem 11rem 11rem;
+    padding: 2.5rem 1.5rem 3.5rem;
+    box-shadow: 0 8px 10px rgba(178,55%,20%, .15);
+    text-align: center;
+}
+.card__img{
+    width: 90%;
+}
+.card__border{
+    width: 124px;
+    height: 124px;
+    border-radius: 10px;
+    margin: 0 auto 1rem;
+    display: grid;
+    place-content: center;
+}
+.card__place{
+    width: 104px;
+    height: 104px;
+    background-color: #070F2B;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.card--name,
+.card--details{
+    color: white;
+}
+.card--name{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.card--details{
+    font-size: 1rem;
+    font-weight: 500;
+
+}

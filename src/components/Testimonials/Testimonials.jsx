@@ -13,9 +13,10 @@ import lydia_img from '../../images/lydia.jpeg';
 function Testimonials() {
   return (
     <section className="testimonials">
-      <h1>Testimonials</h1>
+      <div className="part">     
+        <h1>Testimonials</h1>
       <Swiper
-        spaceBetween={30}
+        spaceBetween={2}
         slidesPerView={2}
         pagination={{ clickable: true }}
         navigation={{ nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' }}
@@ -60,6 +61,8 @@ function Testimonials() {
         <div className="swiper-button-next"></div>
         <div className="swiper-button-prev"></div>
       </Swiper>
+      </div>
+
     </section>
   );
 }
