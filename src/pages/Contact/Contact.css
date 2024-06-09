@@ -1,6 +1,8 @@
 .contact {
     background-color: #070F2B;
     padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .contact h1 {
