@@ -5,15 +5,16 @@
 }
 
 button{
-  padding: 10px;
+  padding: 5px;
+  width: 25%px;
   border-radius: 10px;
   background: linear-gradient(to right, #1B1A55, white);
   transform: all 0.3s ease;
   box-shadow: 5px 5px 5px black;
   text-transform: capitalize;
   color: black;
-  font-size: 1rem;
-  font-weight: 700;
+  font-size: .8rem;
+  font-weight: 400;
 }
 .video-container {
   display: flex;
