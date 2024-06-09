@@ -6,7 +6,7 @@ import Header from './components/Header/Header'
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
 import Destinations from './pages/Destinations/Destinations'
 import Contact from './pages/Contact/Contact'
-import Visuals from './pages/Visuals/Visuals'
+// import Visuals from './pages/Visuals/Visuals'
 import Footer from './components/Footer/Footer'
 
 
@@ -20,7 +20,7 @@ function App() {
       <Route path="/" element={<Home/>} />
       <Route path="/Destinations" element={<Destinations/>} />
       <Route path="/Contact" element={<Contact/>} />
-      <Route path="/Visuals" element={<Visuals/>} />
+      {/* <Route path="/Visuals" element={<Visuals/>} /> */}
       <Route path="/Trips" element={<Trips/>} />
     </Routes>
     <Footer/>
