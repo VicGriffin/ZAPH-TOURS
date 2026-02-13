@@ -1,32 +1,177 @@
-*{
-  margin: 0%;
-  padding: 0%;
+:root {
+  --primary-dark: #0a1428;
+  --primary-darker: #070f2b;
+  --accent-purple: #6366f1;
+  --accent-blue: #0ea5e9;
+  --accent-teal: #14b8a6;
+  --text-light: #f0f4f8;
+  --text-muted: #a8b2c1;
+  --border-subtle: #1e2442;
+  --hover-bg: rgba(99, 102, 241, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-button{
-  padding: 7px;
-  width: 50%;
-  display: grid;
-  place-items: center;
-  border-radius: 10px;
-  background: linear-gradient(to right, #1B1A55, white);
-  transform: all 0.3s ease;
-  box-shadow: 5px 5px 5px black;
-  text-transform: capitalize;
-  color: black;
-  font-size: .8rem;
-  font-weight: 400;
+html {
+  scroll-behavior: smooth;
 }
+
+body {
+  background-color: var(--primary-darker);
+  color: var(--text-light);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.6;
+}
+
+button {
+  padding: 10px 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, var(--accent-purple), var(--accent-blue));
+  color: white;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-transform: capitalize;
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+button::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s;
+}
+
+button:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.35);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
 .video-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #000;
+  background-color: var(--primary-darker);
+  animation: fadeIn 0.8s ease-in;
 }
 
 video {
   max-width: 100%;
   height: auto;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(99, 102, 241, 0.5);
+  }
+}
+
+.animate-in {
+  animation: slideInUp 0.6s ease-out;
+}
+
+.animate-delay-1 {
+  animation-delay: 0.1s;
+}
+
+.animate-delay-2 {
+  animation-delay: 0.2s;
+}
+
+.animate-delay-3 {
+  animation-delay: 0.3s;
 }
