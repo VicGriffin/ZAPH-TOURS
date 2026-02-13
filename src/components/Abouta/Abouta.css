@@ -1,14 +1,41 @@
-.abouta{
-    background-image: url(../../images/heroj.jpg);
+.abouta {
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.3), rgba(20, 184, 166, 0.2)),
+                url(../../images/heroj.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     height: 20vh;
     display: grid;
     place-content: center;
-
+    position: relative;
+    overflow: hidden;
+    animation: fadeIn 0.8s ease-in;
 }
-.abouta h1{
+
+.abouta::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 50% 50%, rgba(99, 102, 241, 0.15), transparent 50%);
+    pointer-events: none;
+}
+
+.abouta h1 {
     color: white;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+    position: relative;
+    z-index: 2;
+    animation: slideInDown 0.6s ease-out;
+    background: linear-gradient(135deg, #ffffff, #b0c4de);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
